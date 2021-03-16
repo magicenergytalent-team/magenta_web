@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: "Hyper";
+  src: local("Hyper"), url('assets/fonts/HYPERv1.4-Light.otf');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+body{
+  background-image: url('assets/images/tori_wallpeaper.jpg');
+  // background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+}
