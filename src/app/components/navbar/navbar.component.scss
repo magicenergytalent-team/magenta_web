@@ -1,0 +1,21 @@
+.navbar{
+  color: #fff;
+  // border-bottom: 1px sol;
+  // background-color: #fff;
+  font-family: 'Montserrat';
+}
+
+.text-button{
+  text-align: center;
+}
+
+.nav-button {
+  padding: 4px;
+}
+
+.dinamic-bordered-button{
+  padding: 8px;
+  &:hover{
+    border-bottom: 2px solid #fff;
+  }
+}
