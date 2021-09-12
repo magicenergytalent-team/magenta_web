@@ -8,7 +8,7 @@ import { CONFIGS } from './CONFIGS';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-
+  // hola
   day_config: CountdownConfig = {
     stopTime: new Date(CONFIGS.END_COUNTDOWN_COUNTER).getTime(),
     format: "dd"
