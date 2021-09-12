@@ -6,8 +6,20 @@
     <h3 class="between">
       Founded to empower the people behind brands
     </h3>
-    <h4>
-      Coming soon
-    </h4>
+    <div class="app-countdown">
+
+      <div class="app-countdown-item">
+        <countdown #cd [config]="day_config" (event)="handleEvent($event)"></countdown> Days
+      </div>
+
+      <div class="app-countdown-item">
+        <countdown #cd [config]="hours_config" (event)="handleEvent($event)"></countdown> Hours
+      </div>
+
+      <div class="app-countdown-item">
+        <countdown #cd [config]="minutes_config" (event)="handleEvent($event)"></countdown> Minutes
+      </div>
+
+    </div>
   </header>
 </section>

@@ -5,11 +5,11 @@ section {
   justify-content: center;
   align-items: center;
 
-  backdrop-filter: brightness(50%);
+  backdrop-filter: brightness(20%);
 
-  header {
-    max-width: 60%;
-  }
+  // header {
+  //   max-width: 60%;
+  // }
 
 }
 
@@ -18,6 +18,7 @@ h1 {
   font-family: Hyper;
   text-align: center;
   font-size: 5rem;
+  margin: 4rem;
 }
 
 h3 {
@@ -27,7 +28,7 @@ h3 {
   font-family: 'Montserrat';
   font-weight: lighter;
   font-size: 2rem;
-  margin: 0;
+  margin: 4rem;
 }
 
 h4 {
@@ -36,9 +37,28 @@ h4 {
   font-weight: lighter;
   font-family: 'Montserrat';
   font-size: 1rem;
+  margin: 4rem;
 }
 
-@media (max-width: 600px) {
+.app-countdown {
+  color: #fff;
+  text-align: center;
+  margin: 2rem;
+  // background: rgba($color: #000000, $alpha: .6);
+  display: flex;
+  justify-content: center;
+
+  border-bottom: 1px solid #fff;
+  border-top: 1px solid #fff;
+
+  .app-countdown-item {
+    padding: 1rem;
+    font-family: Hyper;
+    font-size: 1.5rem;
+  }
+}
+
+@media(max-width: 760px) {
   h1 {
     font-size: 2rem;
   }
@@ -50,4 +70,12 @@ h4 {
   h4 {
     font-size: .6rem;
   }
+
+  .app-countdown {
+    .app-countdown-item {
+      padding: .4rem;
+      font-size: 1rem;
+    }
+  }
+
 }
